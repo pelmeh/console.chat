@@ -1,2 +1,2 @@
-# console.log_chat
+# Console Chat
 Chat based on browser console
