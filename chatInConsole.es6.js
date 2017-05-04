@@ -5,7 +5,7 @@ Array.prototype.last = function () {
 function Chat () {
   this.messages = []
   this.hint = function () {
-    console.info('For send a message use function: %cSend(new Message(text))', 
+    console.info('For send a message use function: %cchat.send(new Message(text))', 
                  'font-style: italic; background: #F5F5F5; padding: 2px;')
   }
   
@@ -57,4 +57,3 @@ function Message (text) {
 }
 
 var chat = new Chat ()
-var send = chat.send // shortcut in window scope
