@@ -8,6 +8,7 @@ Used: `console.log`, `console.table`, `console.info`, `styles in console`
 * Add message
 * Clear older
 * Autoupdate
+* Prevent render when haven't changes
 * Console.log :)
 
 ## Runing
