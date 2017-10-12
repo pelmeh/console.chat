@@ -32,12 +32,8 @@ function Chat () {
     if (state.length === 0) {
       return true
     }
-    
-    if (newState.last().text === state.last().text ) {
-      return false
-    } else {
-      return true
-    }
+
+    return !(newState.last().text === state.last().text ) 
   }
   
   this.render = function () {
